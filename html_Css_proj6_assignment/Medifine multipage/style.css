@@ -1,0 +1,155 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+    max-width: 1500px;
+    overflow: hidden;
+    background-color: #f0f4f5;
+    margin: auto;
+}
+
+/*  header section  */
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    padding: 0 6%;
+
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 700;
+}
+
+ a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li:first-child{
+    font-weight: 800;
+    color: #20bc7e;
+}
+
+/* main section  */
+
+section{
+
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    height: 85vh;
+}
+
+section div {
+    width: 50%;
+}
+
+.left-section {
+    margin-left: 5%;
+    position: relative;
+    left: -325px;
+}
+
+img[ alt="topAngle"]{
+    width: 25px;
+
+}
+
+.left-section h1 {
+    font-size: 75px;
+
+}
+
+.left-section p{
+    font-size: 18px;
+    margin: 20px 0;
+    color: #7c7c7c;
+}
+
+img[ alt="bottomAngle"]{
+    width: 25px;
+    position: absolute;
+    right: 30px;
+}
+
+.btn-and-mouse {
+    position: absolute;
+   bottom: -150px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   left: 100px;
+   top: 500px;
+}
+
+button {
+    background-color: #20bc7e;
+    color: #f0f4f5;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.mouse {
+
+}
+img[ alt="stethoscope"]{
+    position: absolute;
+    z-index: -1;
+    width: 90%;
+    top: -70px;
+    left: 250px;
+
+}
+
+.right-section {
+    display: flex;
+    /* align-items: end; */
+    margin-right:15px ;
+    justify-content: end;
+
+}
+
+ img[ alt="greenBox"]{
+    position: absolute;
+  right: 0px;
+  top:250px;
+    width: 35%;
+  
+}
+
+img[ alt="yellowBox"]{
+     position: absolute;
+     right: -1px;
+     width: 30%;
+     bottom:-50px ;
+  
+}
+
+img[ alt="doctor"]{
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+    height: 90%;
+    /* width: 40%; */
+    /* top: 0px; */
+  
+}

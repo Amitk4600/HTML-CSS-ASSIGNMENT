@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  
+  body {
+      max-width: 1500px;
+      overflow: hidden;
+      background-color: #f0f4f5;
+      margin: auto;
+  }
+  
+  /*  header section  */
+  
+  header {
+  
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 15vh;
+      padding: 0 6%;
+  
+  }
+  
+  ul{
+      display: flex;
+      align-items: center;
+  }
+  
+  ul li {
+      list-style: none;
+      margin-right: 50px;
+      font-weight: 700;
+  }
+  
+   a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  ul li:first-child{
+      font-weight: 800;
+      color: #20bc7e;
+  }
+
+  main {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    gap: 15px;
+  }
+
+  form h1 {
+    
+    text-align: center;
+  }
+
+  form div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form div h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px;
+  }
+  form div input {
+    margin: 5px;
+    padding: 5px 10px;
+    border: transparent;
+    border-radius: 10px;
+  }
+
+  form div textarea {
+    height: 100px;
+    resize: none;
+    margin: 5px;
+    padding: 5px 10px;
+    border: transparent;
+    border-radius: 10px;
+  }
+
+  form button {
+    margin: 0 5px 10px 5px;
+    padding: 10px;
+    border: transparent;
+    background-color: #20bc7e;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  }

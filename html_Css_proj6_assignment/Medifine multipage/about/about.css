@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  
+  body {
+      max-width: 1500px;
+      overflow: hidden;
+      background-color: #f0f4f5;
+      margin: auto;
+  }
+  
+  /*  header section  */
+  
+  header {
+  
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 15vh;
+      padding: 0 6%;
+  
+  }
+  
+  ul{
+      display: flex;
+      align-items: center;
+  }
+  
+  ul li {
+      list-style: none;
+      margin-right: 50px;
+      font-weight: 700;
+  }
+  
+   a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  ul li:first-child{
+      font-weight: 800;
+      color: #20bc7e;
+  }
+
+  main{
+    margin: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  padding: 0 5%;
+
+  }
+  .description{
+    text-align: center;
+    width: 70%;
+  }
+
+  main h1 {
+    margin-bottom: 20px;
+    color: #20bc7e;
+    font-size: 40px;
+    font-weight: 900;
+
+  }
+
+  main p {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .achivements{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 30px;
+  }
+  .card{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+   box-shadow:  0 0 10px black;
+   border-radius: 11px;
+    
+
+  }
+  .card h1 {
+    color: #20bc7e;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .card p {
+    font-size: 25px;
+    font-weight: 700;
+  }
